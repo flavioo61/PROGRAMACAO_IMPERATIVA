@@ -1,0 +1,56 @@
+console.log('\n\n');
+const Tempo=readlineSync.questionInt('Deseja alterar o tempo de preparo? (1 - Sim / 2 - Não) ');
+console.log('\n\n');
+const Tempo = ;
+switch (Tempo) { 
+    case 1: 
+    console.log('Alterar o tempo do prato Pipoca:   ');
+    const Tempo = readlineSync.questionInt('Digite o novo tempo: ');
+    console.log(`Você alterou o tempo da prato Pipoca para ${novoTempo} segundos.`);
+    break;
+    case 2:
+    console.log('Alterar o tempo do prato Macarrao: ');
+    const Tempo = readlineSync.questionInt('Digite o novo tempo: ');
+    console.log(`Você alterou o tempo da prato Macarrao para ${novoTempo} segundos.`);
+    break;
+    case 3:
+    console.log('Alterar o tempo do prato Carne: ');
+    const Tempo = readlineSync.questionInt('Digite o novo tempo: ');
+    console.log(`Você alterou o tempo da prato Carne para ${novoTempo} segundos.`);
+    break;
+    case 4:
+    console.log('Alterar o tempo do prato Feijão: ');
+    const Tempo = readlineSync.questionInt('Digite o novo tempo: ');
+    console.log(`Você alterou o tempo da prato Feijão para ${novoTempo} segundos.`);
+    break;
+    case 5:
+    console.log('Alterar o tempo do prato Brigadeiro: ');
+    const Tempo = readlineSync.questionInt('Digite o novo tempo: ');
+    console.log(`Você alterou o tempo da prato Brigadeiro para ${novoTempo} segundos.`);
+    break;
+        default:}
+console.log('\n\n');
+
+ if(opcao === 1){
+     
+     console.log('Prato pronto, bom apetite!!!');
+ }else if(opcao === 2){ 
+   
+     console.log('Prato pronto, bom apetite!!!');
+ }else if(opcao === 3){
+     
+        console.log('Prato pronto, bom apetite!!!');
+    }
+    else if(opcao === 4){
+       
+        console.log('Prato pronto, bom apetite!!!');
+    }
+    else if(opcao === 5){
+        
+        console.log('Prato pronto, bom apetite!!!');
+    }
+    else{
+        console.log('Prato inexistente, tente novamente!!!');
+    }
+console.log('\n\n');
+
